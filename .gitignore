@@ -1,0 +1,9 @@
+node_modules/
+.venv/
+.DS_Store
+dist/
+public/review/
+deck/rendered/
+deck/scripts/__pycache__/
+*.pyc
+*.log
