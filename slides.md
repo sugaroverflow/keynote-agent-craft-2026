@@ -22,14 +22,14 @@ drawings:
     <SBWindow title="event file" tone="teal">
       <div class="sb-stack">
         <div class="asset-strip">
-          <img :src="'/assets/agentcraft-wide.png'" alt="Agent Craft 2026" />
+          <SBPublicImage src="/assets/agentcraft-wide.png" alt="Agent Craft 2026" />
         </div>
         <div class="sb-logo-row">
           <div class="sb-logo-tile">
-            <img :src="'/assets/ai-for-the-rest-of-us-logo.png'" alt="AI for the Rest of Us" />
+            <SBPublicImage src="/assets/ai-for-the-rest-of-us-logo.png" alt="AI for the Rest of Us" />
           </div>
           <div class="sb-logo-tile">
-            <img :src="'/assets/openclaw-logo.png'" alt="OpenClaw" />
+            <SBPublicImage src="/assets/openclaw-logo.png" alt="OpenClaw" />
           </div>
         </div>
       </div>

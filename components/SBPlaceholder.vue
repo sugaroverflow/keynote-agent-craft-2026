@@ -1,5 +1,7 @@
 <script setup>
-defineProps({
+import { computed } from "vue";
+
+const props = defineProps({
   label: {
     type: String,
     required: true,
@@ -25,6 +27,11 @@ defineProps({
     default: "cover",
   },
 });
+
+const resolvedSrc = computed(() => {
+  if (!props.src || !props.src.startsWith("/")) return props.src;
+  return `${import.meta.env.BASE_URL}${props.src.slice(1)}`;
+});
 </script>
 
 <template>
@@ -35,7 +42,7 @@ defineProps({
   >
     <img
       v-if="src"
-      :src="src"
+      :src="resolvedSrc"
       :alt="label"
       :style="{ objectFit: fit }"
     />
