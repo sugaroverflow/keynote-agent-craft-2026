@@ -11,7 +11,7 @@
       </div>
       <div class="sb-window-body">
         <div class="sb-stack">
-          <h3>Summarise this email.</h3>
+          <h3>Summarize this email.</h3>
           <p class="sb-small">One message. One answer. No memory.</p>
         </div>
       </div>

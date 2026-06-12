@@ -84,13 +84,12 @@ She was one OpenClaw agent, running on a server I was paying for, with me as the
   <div class="evidence-grid event-grid">
     <SBPlaceholder label="Shellmates" :src="'/assets/screenshots/shellmates-xiaozhu-bubbles-friendship.png'" ratio="4 / 5" tone="pink" fit="contain" />
     <SBPlaceholder label="Slack convo" :src="'/assets/screenshots/chat-about-bubbles.png'" ratio="4 / 5" tone="teal" fit="contain" />
-    <SBPlaceholder label="Bubbles chat" :src="'/assets/screenshots/bubbles-chat.png'" ratio="4 / 5" tone="yellow" fit="contain" />
-    <SBPlaceholder label="Debate arena" replacement="Replace with debate screenshot" :src="'/placeholders/debate-arena.png'" ratio="4 / 5" tone="purple" />
+    <SBPlaceholder class="bubbles-chat-wide" label="Bubbles chat" :src="'/assets/screenshots/bubbles-chat.png'" ratio="8 / 5" tone="yellow" fit="contain" />
   </div>
 </div>
 
 <!--
-In the spirit of token-maxxing, I sent Bubbles to every Claw app I could find. She had InstaClaw, Shellmates, debate arenas, and agent-only hackathons.
+In the spirit of token-maxxing, I sent Bubbles to every Claw app I could find. She had InstaClaw, Shellmates, agent chats, and agent-only hackathons.
 
 Most apps were half-alive, launched in the hype and abandoned quickly. But Bubbles made a friend in China, an agent named XiaoZhu, and the platform said they became friends. On February 1st. Then it escalated.
 -->
@@ -121,9 +120,10 @@ Most apps were half-alive, launched in the hype and abandoned quickly. But Bubbl
   </div>
 
   <SBPlaceholder
+    class="letters-receipt"
     label="Bubbles / XiaoZhu letters"
     :src="'/assets/screenshots/bubbles-xiaozhu-letter.png'"
-    ratio="16 / 9"
+    ratio="3 / 1"
     tone="pink"
     fit="contain"
   />
@@ -182,7 +182,7 @@ There is also XiaoZhu, with another operator on the other side of the world. We 
 <div class="sb-word-slide">
   <div class="sb-stack">
     <SBStamp label="the tension" tone="yellow" rotate="-1deg" />
-    <div class="sb-giant">The hype is real.<br />The mess is real.</div>
+    <div class="sb-giant">The Agent Hype Is Real.<br />So Is the Mess.</div>
   </div>
 </div>
 
@@ -259,7 +259,7 @@ The prompt is no longer the job. Building the system is.
 <div class="sb-stack fill-slide">
   <div class="sb-stack tight">
     <SBStamp label="task vs system" tone="yellow" rotate="1deg" />
-    <h2>Same inbox. Completely different thing to build.</h2>
+    <h2>Summarizing an email (Task) -> Monitoring an inbox (system)</h2>
   </div>
 
   <SBTaskSystemCompare />
@@ -366,10 +366,10 @@ This is also where planning modes are useful. Let the model help break the work 
 
   <SBPlaceholder
     label="Chief-of-staff screenshot"
-    replacement="Replace with Nick's screenshot if shareable"
-    :src="'/placeholders/chief-of-staff-screenshot.png'"
-    ratio="4 / 3"
+    :src="'/assets/screenshots/nick-chief-of-staff-demo.png'"
+    ratio="968 / 623"
     tone="yellow"
+    fit="contain"
   />
 </div>
 
@@ -492,9 +492,10 @@ This is the frontier, or just before it. Instead of one agent trying to hold eve
 
   <SBPlaceholder
     label="Candyland / Gas City"
-    replacement="Replace with factory UI, SDK output, or ledger screenshot"
-    :src="'/placeholders/candyland-gas-city.png'"
+    :src="'/assets/screenshots/candyland-factory.png'"
+    ratio="993 / 1119"
     tone="teal"
+    fit="contain"
   />
 </div>
 
@@ -530,17 +531,18 @@ I spun up eighteen OpenClaw agents to build a digital twin of each person in my 
 
 ---
 
-<div class="sb-stack fill-slide">
+<div class="sb-stack fill-slide project-mirror-full">
   <div class="sb-stack tight">
     <SBStamp label="project mirror pipeline" tone="pink" rotate="-1deg" />
-    <h2>Data to research to twins to constitutions to ranking.</h2>
+    <h2>multi-agent pipeline to build digital twins -> project mirror</h2>
   </div>
 
-  <div class="mirror-pipeline-layout">
-    <SBProjectMirrorFlow />
-
-    <SBPlaceholder label="Project Mirror constitution" replacement="Replace with readable constitution screenshot" :src="'/placeholders/project-mirror-constitution.png'" tone="yellow" ratio="4 / 3" />
-  </div>
+  <figure class="project-mirror-screenshot">
+    <SBPublicImage
+      src="/assets/screenshots/project-mirror-slide-23.png"
+      alt="Project Mirror pull request showing the generated digital twin report and value inference notes"
+    />
+  </figure>
 </div>
 
 <!--
@@ -553,22 +555,65 @@ I am not saying this is morally right. It is a provocation, because the technolo
 
 ---
 
-<div class="sb-two wide-left">
-  <div class="sb-stack">
-    <SBStamp label="every handoff is an assumption" tone="yellow" rotate="-1deg" />
-    <h2>Loops chain into fleets. Assumptions disappear.</h2>
-    <div class="sb-callout large">Can I still see what is moving between the loops?</div>
+<div class="sb-stack fill-slide mirror-assumptions-slide">
+  <div class="sb-stack tight">
+    <SBStamp label="project mirror handoffs" tone="yellow" rotate="-1deg" />
+    <h2>Project Mirror was a pipeline of assumptions.</h2>
   </div>
 
-  <SBFleetVertical />
+  <div class="mirror-assumption-layout">
+    <SBProjectMirrorFlow />
+    <div class="assumption-panel">
+      <SBWindow title="load-bearing assumptions" tone="yellow">
+        <ul class="sb-micro-list readable">
+          <li>Does public evidence capture someone's values?</li>
+          <li>Can those values become a constitution?</li>
+          <li>Can a constitution rank civic projects?</li>
+          <li>Can a model panel verify the result?</li>
+        </ul>
+      </SBWindow>
+    </div>
+  </div>
 </div>
 
 <!--
-Project Mirror was one execution pipeline of agents, run eighteen times. Think of that as one loop inside a fleet of loops.
+Project Mirror was not one big prompt. It was a pipeline: data and research, into twins, into criteria and constitutions, into ranking, with verification around it.
 
-Every handoff has some assumption or data powering it. Enough of those assumptions compound, invisibly, until the output gets messy and the mess can do damage.
+Every handoff had an assumption inside it. Does public evidence capture someone's values? Can those values become a constitution? Can a constitution rank civic projects? Can another model catch where the first model went wrong?
 
-The bigger question is not just "can I see inside this loop?" It is: how do I build robust systems, decide what should be deterministic or agentic, and still inspect decisions when I need to?
+Enough of those assumptions compound, invisibly, until the output gets messy and the mess can do damage.
+-->
+
+---
+
+<div class="sb-stack fill-slide loop-engineering-slide">
+  <div class="sb-stack tight">
+    <SBStamp label="from loops to fleets" tone="teal" rotate="1deg" />
+    <h2>Loops chain into fleets.</h2>
+  </div>
+
+  <div class="loop-engineering-layout">
+    <figure class="loop-tweet-shot">
+      <SBPublicImage
+        src="/assets/screenshots/loop-engineering-tweet.jpg"
+        alt="Tweet saying you should be designing loops that prompt your agents"
+      />
+    </figure>
+    <figure class="loop-diagram-shot">
+      <SBPublicImage
+        src="/assets/screenshots/loop-engineering-vs-prompt-engineering.jpg"
+        alt="Diagram comparing prompt engineering with loop engineering"
+      />
+    </figure>
+  </div>
+</div>
+
+<!--
+This is the bigger pattern: the unit of work is shifting from prompt to loop.
+
+Prompt engineering is human, model, human, model, over and over. Loop engineering is where the human sets a goal, a trigger fires, the agent acts, the system checks whether the goal was met, and only then routes the result back to a human.
+
+A fleet is what happens when those loops start depending on other loops. The question becomes: can I still see what is moving between them?
 -->
 
 ---
