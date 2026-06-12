@@ -7,11 +7,7 @@
     "build": "slidev build",
     "build:pages": "slidev build --base /keynote-agent-craft-2026/",
     "export:pdf": "slidev export --format pdf --output dist/agent-craft-keynote.pdf",
-    "export:png": "slidev export --format png --output dist/png",
-    "build:legacy-pptx": "node deck/src/build-deck.mjs"
-  },
-  "dependencies": {
-    "pptxgenjs": "^3.12.0"
+    "export:png": "slidev export --format png --output dist/png"
   },
   "devDependencies": {
     "@slidev/cli": "^52.3.0",

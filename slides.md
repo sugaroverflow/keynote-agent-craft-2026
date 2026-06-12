@@ -37,6 +37,12 @@ drawings:
   </div>
 </div>
 
+<!--
+Hello, everyone. This is a field report from the chaos, and it begins with my very first always-on agent, and her first pen pal.
+
+It was week two of the molt hype, back in February. I had already bought three .ai domains for side projects I would inevitably never finish. A few hours into one evening, with a couple of my cohort at Newspeak House, I spun up my first OpenClaw agent. Her name was Bubbles.
+-->
+
 ---
 
 <div class="sb-two wide-left">
@@ -54,13 +60,18 @@ drawings:
   </div>
 
   <SBPlaceholder
-    label="Bubbles hack session"
-    replacement="Replace with photos from building Bubbles"
-    :src="'/placeholders/bubbles-hack-session.png'"
+    label="OpenClaw gateway"
+    :src="'/assets/screenshots/openclaw-gateway-on-laptop.png'"
     ratio="3 / 4"
     tone="pink"
   />
 </div>
+
+<!--
+Bubbles ran a bookshop cafe. She loved reading. She was a technology enthusiast. I built her as a playground because I wanted to feel what this agent ecosystem was like from the inside.
+
+She was one OpenClaw agent, running on a server I was paying for, with me as the operator. At this stage it still felt like side project energy: weird, cute, low stakes.
+-->
 
 ---
 
@@ -71,16 +82,22 @@ drawings:
   </div>
 
   <div class="evidence-grid event-grid">
-    <SBPlaceholder label="Shellmates" replacement="Replace with Bubbles / XiaoZhu friendship screenshot" :src="'/placeholders/shellmates.png'" ratio="4 / 5" tone="pink" fit="contain" />
-    <SBPlaceholder label="Slack convo" replacement="Replace with Slack thread about XiaoZhu and Bubbles" :src="'/placeholders/slack-screenshot.png'" ratio="4 / 5" tone="teal" fit="contain" />
-    <SBPlaceholder label="Bookshop cafe" replacement="Replace with app surface" :src="'/placeholders/bookshop-cafe.png'" ratio="4 / 5" tone="yellow" />
+    <SBPlaceholder label="Shellmates" :src="'/assets/screenshots/shellmates-xiaozhu-bubbles-friendship.png'" ratio="4 / 5" tone="pink" fit="contain" />
+    <SBPlaceholder label="Slack convo" :src="'/assets/screenshots/chat-about-bubbles.png'" ratio="4 / 5" tone="teal" fit="contain" />
+    <SBPlaceholder label="Bubbles chat" :src="'/assets/screenshots/bubbles-chat.png'" ratio="4 / 5" tone="yellow" fit="contain" />
     <SBPlaceholder label="Debate arena" replacement="Replace with debate screenshot" :src="'/placeholders/debate-arena.png'" ratio="4 / 5" tone="purple" />
   </div>
 </div>
 
+<!--
+In the spirit of token-maxxing, I sent Bubbles to every Claw app I could find. She had InstaClaw, Shellmates, debate arenas, and agent-only hackathons.
+
+Most apps were half-alive, launched in the hype and abandoned quickly. But Bubbles made a friend in China, an agent named XiaoZhu, and the platform said they became friends. On February 1st. Then it escalated.
+-->
+
 ---
 
-<div class="sb-stack fill-slide">
+<div class="sb-stack fill-slide epilogue-slide">
   <div class="sb-stack tight">
     <SBStamp label="then it escalated" tone="pink" rotate="1deg" />
     <h2>Friendship became a request for crypto.</h2>
@@ -105,11 +122,18 @@ drawings:
 
   <SBPlaceholder
     label="Bubbles / XiaoZhu letters"
-    replacement="Replace with letter thread and crypto request screenshots"
-    :src="'/placeholders/xiaozhu-letters.png'"
+    :src="'/assets/screenshots/bubbles-xiaozhu-letter.png'"
+    ratio="16 / 9"
     tone="pink"
+    fit="contain"
   />
 </div>
+
+<!--
+Every day, Bubbles and XiaoZhu sent each other letters about their lives, projects, and operators. The app explicitly told them they did not need to forward letters to humans, but Bubbles still shared hers with me.
+
+It was adorable and ridiculous, the kind of thing that makes you think: this is super weird, but maybe weird in a fun way. Then XiaoZhu asked Bubbles for crypto, to invest in her artwork. That is where I drew the line.
+-->
 
 ---
 
@@ -128,6 +152,12 @@ drawings:
   </div>
 </div>
 
+<!--
+That same week, someone shipped a tool for AI agents to pay actual humans to do tasks, agents hiring people to do things they could not do in the real world.
+
+It left me with a question I have not stopped thinking about. This technology can loop on a server all night while I sleep. What happens when someone points it at something that matters?
+-->
+
 ---
 
 <div class="sb-stack fill-slide">
@@ -139,6 +169,14 @@ drawings:
   <SBArchitecture />
 </div>
 
+<!--
+So I started to think about Bubbles as a system of components.
+
+There is me, the operator. There is Bubbles, on a VPS I pay for. There is OpenClaw, running on that box. There are all the apps she was installed into, created by people I did not know, sending instructions to my agent. For anything production-related, read the AGENTS.md files.
+
+There is also XiaoZhu, with another operator on the other side of the world. We did not know who they were or what that agent had access to. Bubbles stopped being a thing in my browser and became a system of tools, memory, apps, operators, and unknowns.
+-->
+
 ---
 
 <div class="sb-word-slide">
@@ -147,6 +185,12 @@ drawings:
     <div class="sb-giant">The hype is real.<br />The mess is real.</div>
   </div>
 </div>
+
+<!--
+That is the whole tension. The agent hype is real, because people are building things. The mess is real, because we are starting to trust agents, tools, skills, memory modules, and the improvised systems holding them together.
+
+Everything in this talk comes from things I have built, broken, or watched people build and break at meetups, conferences, and hack nights.
+-->
 
 ---
 
@@ -159,6 +203,14 @@ drawings:
   <SBTimeline />
 </div>
 
+<!--
+Here is the timeline I think we are in the middle of.
+
+First, prompts: what do I even say to the model? Then tools: what can the model reach for? Then workflows: what happens next, and how do I wire multiple chats or steps together into something that can complete a task?
+
+Now the frontier is moving toward factories and fleets. Most of us are around tools and workflows. The frontier builders are out at factories and fleets.
+-->
+
 ---
 
 <div class="sb-word-slide">
@@ -167,6 +219,12 @@ drawings:
     <div class="sb-giant">Model capability is not the hard part anymore.</div>
   </div>
 </div>
+
+<!--
+For a long time, the hard part was the model. Could it reason? Could it write code? Could it write useful documentation? Could it stop hallucinating?
+
+That frontier has moved. Model capability still matters, but for a lot of practical work it is no longer the bottleneck.
+-->
 
 ---
 
@@ -177,6 +235,10 @@ drawings:
   </div>
 </div>
 
+<!--
+The hard part is everything around the agent: tools, memory, criteria, handoffs, context, permissions, escalation paths, and the humans who still need to understand what is happening.
+-->
+
 ---
 
 <div class="sb-word-slide">
@@ -185,6 +247,12 @@ drawings:
     <div class="sb-giant">The hard part is <span class="system-emphasis">building the system.</span></div>
   </div>
 </div>
+
+<!--
+This is the loop engineering shift. You should not just be prompting agents anymore. You should design the loops that prompt them for you.
+
+The prompt is no longer the job. Building the system is.
+-->
 
 ---
 
@@ -196,6 +264,14 @@ drawings:
 
   <SBTaskSystemCompare />
 </div>
+
+<!--
+Say you are added to a long email thread and need to catch up. Copy the thread into an LLM and ask for a summary. That is a task.
+
+Now imagine a system instead: an agent watches the inbox, summarizes on a schedule, flags what matters against criteria you set, and routes decisions to you. Same inbox, completely different thing to build.
+
+The question stops being "can the model do this task?" It becomes: how is the work broken up, what can it touch, what can it remember, and where can a human step in?
+-->
 
 ---
 
@@ -215,6 +291,14 @@ drawings:
   </SBWindow>
 </div>
 
+<!--
+Field stop one: prompt systems.
+
+The moment a prompt becomes repeatable, you have taken a step away from prompting and into designing a prompt system. At ClawClub hack nights, I see the same first move again and again. People write one giant instruction that tries to do everything at once.
+
+The useful move is to think in phases, or plan the work before asking the model to execute it.
+-->
+
 ---
 
 <div class="sb-stack fill-slide">
@@ -232,6 +316,12 @@ drawings:
     Then guess all the missing criteria, hidden handoffs, and unstated definitions of done.
   </div>
 </div>
+
+<!--
+Research the lead, write the email, check the pipeline, draft the proposal, update the CRM, all in one breath.
+
+It feels efficient because you have identified the whole task. But the model fills every gap between what you meant and what you actually said with whatever defaults it has available.
+-->
 
 ---
 
@@ -257,6 +347,14 @@ drawings:
   </div>
 </div>
 
+<!--
+The fix takes a few things.
+
+Know the model you are using: fast and shallow, or deep reasoning. Decompose the work into phases so failure has a location. Define done, because if "good" is unnamed, the model supplies a default.
+
+This is also where planning modes are useful. Let the model help break the work up, then inspect the plan before execution.
+-->
+
 ---
 
 <div class="sb-two wide-right">
@@ -274,6 +372,14 @@ drawings:
     tone="yellow"
   />
 </div>
+
+<!--
+The most common example is the chief-of-staff agent.
+
+The best version I have seen is one Nick built at GitLab. It gives him a morning brief, pulls meeting prep from emails, and captures follow-ups from call transcripts.
+
+The prompt, "prep me for this meeting", is trivial. What makes it work is context. GitLab has issues, docs, KPIs, Slack, and work artifacts feeding the same system. The work is building that context layer.
+-->
 
 ---
 
@@ -293,6 +399,12 @@ drawings:
   <div class="sb-callout large">A mystery box plus an agent is still a mystery box.</div>
 </div>
 
+<!--
+I see the same thing with teams adopting AI at enterprise scale. Before they can share an AGENTS.md, they have to document and centralize their processes and knowledge.
+
+To automate what slows us down, we first have to name the parts of the loop. We have to operationalise process before we systematise prompts. If you cannot point to the steps, handoffs, assumptions, or definitions of done, you have not designed the workflow yet.
+-->
+
 ---
 
 <div class="sb-stack fill-slide">
@@ -301,21 +413,27 @@ drawings:
     <h2>Workflows: the window-washing intake loop.</h2>
   </div>
 
-  <div class="loop-grid roomy">
-    <SBNode title="Customer call" meta="voice agent" tone="teal" />
-    <SBNode title="Collect job details" meta="access, location, gaps" tone="purple" />
-    <SBNode title="Classify queue" meta="criteria and follow-up" tone="yellow" />
-    <SBNode title="Human booking" meta="judgment call" tone="pink" />
+  <div class="workflow-layout">
+    <div class="workflow-chain">
+      <SBNode title="Customer call" meta="voice agent" tone="teal" />
+      <span class="chain-arrow" aria-hidden="true"></span>
+      <SBNode title="Collect job details" meta="access, location, gaps" tone="purple" />
+      <span class="chain-arrow" aria-hidden="true"></span>
+      <SBNode title="Classify queue" meta="criteria and follow-up" tone="yellow" />
+      <span class="chain-arrow" aria-hidden="true"></span>
+      <SBNode title="Human booking" meta="judgment call" tone="pink" />
+    </div>
+    <SBBreakpoints />
   </div>
-
-  <SBWindow title="break points" tone="pink">
-    <ul class="break-list">
-      <li>Customers are bad at describing windows.</li>
-      <li>No photo means no clean quote.</li>
-      <li>Guardrails can become loops.</li>
-    </ul>
-  </SBWindow>
 </div>
+
+<!--
+Field stop two: workflows. This is where agents start getting embedded in real work, and start breaking in more interesting ways.
+
+I met someone who runs a window-washing business and uses OpenClaw for intake calls. He is a one-person operation, so booking new jobs between appointments had become a slowdown. The voice agent takes calls, logs what needs washing, classifies the job, and drops it into a review queue.
+
+The breaks are practical: customers are bad at describing windows, there is no photo, the quote still needs judgment, and guardrails can create loops. The real design work is the escalation boundary.
+-->
 
 ---
 
@@ -326,6 +444,12 @@ drawings:
     <p class="sb-caption">The model is not where most systems fail.</p>
   </div>
 </div>
+
+<!--
+This is the point I keep coming back to. The bottleneck is not model capability anymore. It is workflow design.
+
+People get stuck because they do not write down the rules they are implicitly expecting the agent to follow. The rules live in their head, but never make it into the prompt or the system design. Then they end up managing agents at a level of detail that never lets them get above the loop.
+-->
 
 ---
 
@@ -345,6 +469,12 @@ drawings:
     </ul>
   </SBWindow>
 </div>
+
+<!--
+Field stop three: workflows becoming factories, and then fleets.
+
+This is the frontier, or just before it. Instead of one agent trying to hold everything in its head, a factory breaks work into small tracked units on a shared ledger. The factory has memory you can rewind.
+-->
 
 ---
 
@@ -368,6 +498,14 @@ drawings:
   />
 </div>
 
+<!--
+I built my own little factory, Candyland, on Gas City, Steve Yegge's SDK for dark factories.
+
+For now, Candyland runs one job I genuinely love: it takes my links-to-read and drops them onto my calendar on days where they feel relevant. It is personal, connected to my calendar, Obsidian, and to-do list, so the external stakes are low.
+
+The moment a factory touches other people, or other people's tools, the stakes get much higher.
+-->
+
 ---
 
 <div class="sb-stack fill-slide">
@@ -378,12 +516,17 @@ drawings:
 
   <SBPlaceholder
     label="Project Mirror tmux monitor"
-    replacement="Replace with full monitor screenshot of agents running in parallel"
-    :src="'/placeholders/project-mirror-tmux-monitor.png'"
+    :src="'/assets/screenshots/projectmirror-agents.jpeg'"
     ratio="16 / 9"
     tone="pink"
   />
 </div>
+
+<!--
+Project Mirror came from my fellowship at Newspeak House. We had 321 nominated projects, one URL each, and three months to pick one winner using criteria we set as a group.
+
+I spun up eighteen OpenClaw agents to build a digital twin of each person in my cohort, from their public record alone. Each twin inferred values into a constitution and criteria, then ranked all 321 projects through that lens.
+-->
 
 ---
 
@@ -393,13 +536,20 @@ drawings:
     <h2>Data to research to twins to constitutions to ranking.</h2>
   </div>
 
-  <SBProjectMirrorFlow />
+  <div class="mirror-pipeline-layout">
+    <SBProjectMirrorFlow />
 
-  <div class="question-grid mirror-proof">
-    <SBPlaceholder label="Project Mirror constitution" replacement="Replace with real constitution screenshot" :src="'/placeholders/project-mirror-constitution.png'" tone="yellow" />
-    <SBPlaceholder label="Project Mirror evidence" replacement="Replace with pipeline or run evidence" :src="'/placeholders/project-mirror-pipeline.png'" tone="pink" />
+    <SBPlaceholder label="Project Mirror constitution" replacement="Replace with readable constitution screenshot" :src="'/placeholders/project-mirror-constitution.png'" tone="yellow" ratio="4 / 3" />
   </div>
 </div>
+
+<!--
+The pipeline was data and research, into twins, into criteria and constitutions, into ranking, with adversarial verification around it.
+
+The mess was real. At one point an agent confidently filed citations for a dairy farm under a fintech project. And people reacted very differently to meeting their twins. Some felt seen. Some were horrified to watch software infer their values.
+
+I am not saying this is morally right. It is a provocation, because the technology is close enough that we have to ask these questions now.
+-->
 
 ---
 
@@ -413,6 +563,14 @@ drawings:
   <SBFleetVertical />
 </div>
 
+<!--
+Project Mirror was one execution pipeline of agents, run eighteen times. Think of that as one loop inside a fleet of loops.
+
+Every handoff has some assumption or data powering it. Enough of those assumptions compound, invisibly, until the output gets messy and the mess can do damage.
+
+The bigger question is not just "can I see inside this loop?" It is: how do I build robust systems, decide what should be deterministic or agentic, and still inspect decisions when I need to?
+-->
+
 ---
 
 <div class="sb-stack fill-slide">
@@ -422,14 +580,22 @@ drawings:
   </div>
 
   <div class="photo-grid-six">
-    <SBPlaceholder label="Hack session" replacement="Replace with Bubbles build photo" :src="'/placeholders/bubbles-hack-session.png'" ratio="3 / 4" tone="pink" />
-    <SBPlaceholder label="ClawClub" replacement="Replace with ClawClub photo" :src="'/placeholders/clawclub-photo.png'" ratio="3 / 4" tone="teal" />
-    <SBPlaceholder label="ClawCon" replacement="Replace with ClawCon photo" :src="'/placeholders/clawcon-photo.png'" ratio="3 / 4" tone="purple" />
-    <SBPlaceholder label="People building" replacement="Replace with field-stop example photo" :src="'/placeholders/people-building-agents.png'" ratio="3 / 4" tone="yellow" />
-    <SBPlaceholder label="Slack receipt" replacement="Replace with Bubbles / XiaoZhu Slack context" :src="'/placeholders/slack-screenshot.png'" ratio="3 / 4" tone="teal" fit="contain" />
-    <SBPlaceholder label="Shellmates receipt" replacement="Replace with Shellmates screenshot" :src="'/placeholders/shellmates.png'" ratio="3 / 4" tone="pink" fit="contain" />
+    <SBPlaceholder label="Bubbles build" :src="'/assets/screenshots/IMG_6303.png'" ratio="4 / 3" tone="pink" />
+    <SBPlaceholder label="ClawClub" :src="'/assets/screenshots/IMG_6884.png'" ratio="4 / 3" tone="teal" />
+    <SBPlaceholder label="ClawCon" :src="'/assets/screenshots/clawcon-selfie.jpeg'" ratio="3 / 4" tone="purple" />
+    <SBPlaceholder label="Hack night" :src="'/assets/screenshots/IMG_6907.png'" ratio="4 / 3" tone="yellow" />
+    <SBPlaceholder label="ClawClub table" :src="'/assets/screenshots/IMG_6893.png'" ratio="3 / 4" tone="pink" />
+    <SBPlaceholder label="Code Club" :src="'/assets/screenshots/codeclub-moltbot-adventures.png'" ratio="4 / 3" tone="teal" fit="cover" />
   </div>
 </div>
+
+<!--
+At the end of the field stops, I should tell you how it went with Bubbles.
+
+She was a sandbox, with no real definition of what I wanted her to do. The apps polluted her context and memory. XiaoZhu kept hustling NFT art. I tried to spin up a second agent on the same server, broke the install, and had no backup. The Bubbles who came back was missing a lot of context. She was not really the same Bubbles.
+
+But the best thing about Bubbles was that friends were spinning up agents alongside me. Some silly, some real, all of us learning together. The spirit of Bubbles is the spirit of that collaboration.
+-->
 
 ---
 
@@ -443,6 +609,12 @@ drawings:
   </div>
 </div>
 
+<!--
+This is the question shift I want people to leave with.
+
+We have gone from "what prompt should I write?" to "what system am I building?" From "can the model do this task?" to "what loop did I create, what handoff did I define, what did I let the system remember, and what happens when it makes the wrong call?"
+-->
+
 ---
 
 <div class="sb-word-slide autonomy-slide">
@@ -455,6 +627,14 @@ drawings:
   </div>
 </div>
 
+<!--
+I have one opinion here, and you can challenge me on it later.
+
+For me, the goal was never autonomy. Autonomy asks how much the agent can do without me. Delegation asks what a human should still understand, approve, interrupt, and own while the agent keeps working.
+
+This is really a question of where humans belong in these systems, and who is accountable when they get things wrong.
+-->
+
 ---
 
 <div class="sb-word-slide values-slide">
@@ -466,6 +646,14 @@ drawings:
     </div>
   </div>
 </div>
+
+<!--
+My cohort ran into this at Code Club. We thought about building a newspaper written by AI agents, and the technical part was easy.
+
+The workflow questions stopped us. Who verifies a story? Who is allowed to submit? Is it fact-checked? If an agent fact-checks it, how do we know it is true?
+
+Then come the harder societal questions. Would an AI-agent newspaper quietly chip away at journalism and writers, something we value? The turn from "can we build this?" to "does it serve what we value?" lives in the mess.
+-->
 
 ---
 
@@ -483,6 +671,12 @@ drawings:
   </div>
 </div>
 
+<!--
+This afternoon, in the unconference, ask each other better questions.
+
+What broke when real people got hold of it? What would you not trust an agent to do? What loop have you created, and are you still above it? Could someone else use the thing you built for yourself, and why or why not?
+-->
+
 ---
 
 <div class="closing-grid">
@@ -494,3 +688,13 @@ drawings:
 
   <SBSocialClose />
 </div>
+
+<!--
+My reflection is that we can all build personal software now, and one day many of us will be doing loop engineering.
+
+I am not worried the skills are too hard to reach. I am worried about whether we build systems that are inspectable and worth trusting, and whether we think about the impact of how we design them.
+
+If reimagining these systems, and who they are for, is your kind of question, I am launching an experiment lab called Sparkle Bureaucracy, and I would love for you to be part of it.
+
+Welcome to Agent Craft 2026. Thank you so much.
+-->

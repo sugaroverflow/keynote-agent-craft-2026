@@ -8,7 +8,7 @@ const props = defineProps({
   },
   replacement: {
     type: String,
-    required: true,
+    default: "",
   },
   src: {
     type: String,
@@ -46,10 +46,10 @@ const resolvedSrc = computed(() => {
       :alt="label"
       :style="{ objectFit: fit }"
     />
-    <div class="sb-placeholder-noise" aria-hidden="true"></div>
-    <figcaption>
+    <div v-if="!src" class="sb-placeholder-noise" aria-hidden="true"></div>
+    <figcaption v-if="label || replacement">
       <span class="sb-placeholder-label">{{ label }}</span>
-      <span class="sb-placeholder-replace">{{ replacement }}</span>
+      <span v-if="replacement" class="sb-placeholder-replace">{{ replacement }}</span>
     </figcaption>
   </figure>
 </template>

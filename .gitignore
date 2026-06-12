@@ -7,3 +7,4 @@ deck/rendered/
 deck/scripts/__pycache__/
 *.pyc
 *.log
+assets/*.HEIC
