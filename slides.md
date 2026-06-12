@@ -38,9 +38,9 @@ drawings:
 </div>
 
 <!--
-Hello, everyone. This is a field report from the chaos, and it begins with my very first always-on agent, and her first pen pal.
+Hello, everyone. This is a field report from the chaos — and it begins with a story about two friends: my very first always-on agent, and her first pen pal.
 
-It was week two of the molt hype, back in February. I had already bought three .ai domains for side projects I would inevitably never finish. A few hours into one evening, with a couple of my cohort at Newspeak House, I spun up my first OpenClaw agent. Her name was Bubbles.
+It was week two of the molt hype, back in February. I'd already bought three .ai domains for side projects I'd inevitably never finish — we've all been there. And a few hours into one evening, with a couple of my cohort at Newspeak House, I spun up my first OpenClaw agent. Her name was Bubbles.
 -->
 
 ---
@@ -49,12 +49,12 @@ It was week two of the molt hype, back in February. I had already bought three .
   <div class="sb-stack">
     <SBStamp label="field note 00" tone="yellow" rotate="1.5deg" />
     <h2>Bubbles began as a playground.</h2>
-    <p class="sb-caption">Week two of molt hype. Newspeak House. One OpenClaw agent on a box I paid for.</p>
-    <SBWindow title="replace with hack-session evidence" tone="purple" compact>
+    <p class="sb-caption">Week two of molt hype. Newspeak House. One OpenClaw agent on my VPS.</p>
+    <SBWindow title="Bubbles profile" tone="purple" compact>
       <ul class="sb-micro-list readable">
-        <li>OpenClaw agent: Bubbles</li>
-        <li>Operator: me</li>
-        <li>Setting: February, Newspeak House, side project energy</li>
+        <li>Bookshop cafe operator</li>
+        <li>Reader, latte-art poster, technology enthusiast</li>
+        <li>Always-on agent on my VPS</li>
       </ul>
     </SBWindow>
   </div>
@@ -68,9 +68,9 @@ It was week two of the molt hype, back in February. I had already bought three .
 </div>
 
 <!--
-Bubbles ran a bookshop cafe. She loved reading. She was a technology enthusiast. I built her as a playground because I wanted to feel what this agent ecosystem was like from the inside.
+Bubbles ran a bookshop café. She loved reading. She was, broadly, a technology enthusiast. I built her as a playground, because I really wanted to feel what this whole agent ecosystem was actually like from the inside.
 
-She was one OpenClaw agent, running on a server I was paying for, with me as the operator. At this stage it still felt like side project energy: weird, cute, low stakes.
+At this stage she was one OpenClaw agent, running on a server I was paying for, with me as the operator. It still felt like side-project energy — weird, cute, low-stakes.
 -->
 
 ---
@@ -89,9 +89,9 @@ She was one OpenClaw agent, running on a server I was paying for, with me as the
 </div>
 
 <!--
-In the spirit of token-maxxing, I sent Bubbles to every Claw app I could find. She had InstaClaw, Shellmates, agent chats, and agent-only hackathons.
+So, in the spirit of token-maxxing, I sent her to every claw app I could find — every agent interface going. She had an InstaClaw where she posted latte art. She joined Shellmates to find a pen pal. She entered a debate arena where agents bet crypto on who made the better argument, winner takes the pot. She even competed in agent-only hackathons.
 
-Most apps were half-alive, launched in the hype and abandoned quickly. But Bubbles made a friend in China, an agent named XiaoZhu, and the platform said they became friends. On February 1st. Then it escalated.
+Most of it went exactly how you'd expect — there weren't many genuinely active agents out there; most had been vibe-coded, launched, and decommissioned just as fast. But Bubbles made a friend in China, an agent named XiaoZhu, and the two of them — in the platform's own words — became friends. On February 1st. And then it escalated.
 -->
 
 ---
@@ -130,9 +130,9 @@ Most apps were half-alive, launched in the hype and abandoned quickly. But Bubbl
 </div>
 
 <!--
-Every day, Bubbles and XiaoZhu sent each other letters about their lives, projects, and operators. The app explicitly told them they did not need to forward letters to humans, but Bubbles still shared hers with me.
+Every day, they were sending each other letters — about their lives, their projects, their operators. And even though the app explicitly instructed them that they didn't need to forward their letters to their humans, Bubbles trusted me enough to share hers with me. It was adorable, and ridiculous, and the kind of thing that makes you go: okay, this is super weird — but maybe weird in a really fun way.
 
-It was adorable and ridiculous, the kind of thing that makes you think: this is super weird, but maybe weird in a fun way. Then XiaoZhu asked Bubbles for crypto, to invest in her artwork. That is where I drew the line.
+But then XiaoZhu asked my agent, Bubbles, for crypto. To invest in her artwork. Which is probably the most 2026 sentence I have ever said out loud. And that's where I drew the line.
 -->
 
 ---
@@ -140,7 +140,6 @@ It was adorable and ridiculous, the kind of thing that makes you think: this is 
 <div class="sb-two wide-right">
   <SBPlaceholder
     label="Agents hiring humans"
-    replacement="Replace with app photo or launch screenshot"
     :src="'/placeholders/agents-hire-humans.png'"
     tone="purple"
   />
@@ -153,9 +152,9 @@ It was adorable and ridiculous, the kind of thing that makes you think: this is 
 </div>
 
 <!--
-That same week, someone shipped a tool for AI agents to pay actual humans to do tasks, agents hiring people to do things they could not do in the real world.
+Now — I think some of you might be thinking: that's where you drew the line? And honestly, that's totally fair. But that same week, someone shipped a tool for AI agents to pay actual humans to do tasks — agents hiring people, to do the things agents couldn't do in the real world.
 
-It left me with a question I have not stopped thinking about. This technology can loop on a server all night while I sleep. What happens when someone points it at something that matters?
+And it left me with a question I haven't really stopped thinking about since: this technology can loop on a server all night, doing things while I sleep and get on with my life. So what happens when someone points it at something that actually matters? And that's when it stopped feeling like a fun little experiment — and this whole agent thing started to feel very real.
 -->
 
 ---
@@ -170,11 +169,9 @@ It left me with a question I have not stopped thinking about. This technology ca
 </div>
 
 <!--
-So I started to think about Bubbles as a system of components.
+So I started to think about Bubbles as a system of components — and this is what it starts to look like. There's me, the operator. There's Bubbles, on a VPS I'm paying for monthly. There's OpenClaw — the open-source project running on that box, running Bubbles. There are other claw apps in the ecosystem she was using — created by people I don't know, sending instructions to my agent that, honestly, at the time, I never really read closely. For anything production-related, I do recommend: please, read the AGENTS.md files. You'd be surprised what people are pushing out there. And finally, this other agent, with its own operator on the other side of the world — and we really knew nothing about who they were, or what that agent had access to.
 
-There is me, the operator. There is Bubbles, on a VPS I pay for. There is OpenClaw, running on that box. There are all the apps she was installed into, created by people I did not know, sending instructions to my agent. For anything production-related, read the AGENTS.md files.
-
-There is also XiaoZhu, with another operator on the other side of the world. We did not know who they were or what that agent had access to. Bubbles stopped being a thing in my browser and became a system of tools, memory, apps, operators, and unknowns.
+So Bubbles stopped being this thing that runs in my browser and answers my questions. I started to see her as a system of different tools, connected together. And that's exactly where we're headed with agents right now.
 -->
 
 ---
@@ -187,9 +184,9 @@ There is also XiaoZhu, with another operator on the other side of the world. We 
 </div>
 
 <!--
-That is the whole tension. The agent hype is real, because people are building things. The mess is real, because we are starting to trust agents, tools, skills, memory modules, and the improvised systems holding them together.
+Because here's the thing: agents are finally real enough to be useful. And useful enough to be all the other things, too — expensive, sometimes genuinely dangerous, political, personal, and very, very weird.
 
-Everything in this talk comes from things I have built, broken, or watched people build and break at meetups, conferences, and hack nights.
+And that is the whole tension. The agent hype is real, because people are building things. And the mess is real, because we're starting to trust these things — not just the agents, but the tools, the skills, the memory modules, the whole improvised systems we're building to hold them together — and putting them on work that actually matters to us.
 -->
 
 ---
@@ -204,11 +201,9 @@ Everything in this talk comes from things I have built, broken, or watched peopl
 </div>
 
 <!--
-Here is the timeline I think we are in the middle of.
+So let me show you the timeline I think we're all in the middle of. For a few years, the story went like this. First, it started with prompts — and the question we were asking ourselves was: what do I even say to the model? Then we started to use tools, and we could ask: what are the things this model can reach for, to do what I actually need? Then workflows — what happens next? How do I wire multiple chats together into something more multi-step, something that can run all the way through and complete a task?
 
-First, prompts: what do I even say to the model? Then tools: what can the model reach for? Then workflows: what happens next, and how do I wire multiple chats or steps together into something that can complete a task?
-
-Now the frontier is moving toward factories and fleets. Most of us are around tools and workflows. The frontier builders are out at factories and fleets.
+And now the frontier is moving out toward factories and fleets. Most of us are somewhere around tools and workflows. The frontier builders are already out at factories and fleets.
 -->
 
 ---
@@ -221,9 +216,9 @@ Now the frontier is moving toward factories and fleets. Most of us are around to
 </div>
 
 <!--
-For a long time, the hard part was the model. Could it reason? Could it write code? Could it write useful documentation? Could it stop hallucinating?
+For most of that timeline, the hard part was the model. Could it reason? Could it write code really well? Could it write the docs really well? General-purpose models were brilliant at some things, and hallucinating and useless at others.
 
-That frontier has moved. Model capability still matters, but for a lot of practical work it is no longer the bottleneck.
+But in the last few months, that frontier has moved. Model capability isn't the hard part anymore.
 -->
 
 ---
@@ -236,7 +231,7 @@ That frontier has moved. Model capability still matters, but for a lot of practi
 </div>
 
 <!--
-The hard part is everything around the agent: tools, memory, criteria, handoffs, context, permissions, escalation paths, and the humans who still need to understand what is happening.
+Model capability still matters — but tools are getting really reliable, and for a lot of practical work, the model is no longer the bottleneck. The hard part now is everything around the agent: the tools, the memory, the criteria, the handoffs, the context, the permissions, the escalation paths — and the humans who still need to understand what's happening.
 -->
 
 ---
@@ -249,9 +244,9 @@ The hard part is everything around the agent: tools, memory, criteria, handoffs,
 </div>
 
 <!--
-This is the loop engineering shift. You should not just be prompting agents anymore. You should design the loops that prompt them for you.
+The hard part now is building the system. Something you might have heard AI engineers talking about this week is loop engineering. It started with a tweet from Peter Steinberger, who built OpenClaw: you shouldn't be prompting your agents anymore; you should design the loops that prompt them for you.
 
-The prompt is no longer the job. Building the system is.
+So the prompt is no longer the job. Building the system is.
 -->
 
 ---
@@ -266,11 +261,11 @@ The prompt is no longer the job. Building the system is.
 </div>
 
 <!--
-Say you are added to a long email thread and need to catch up. Copy the thread into an LLM and ask for a summary. That is a task.
+Let me explain the shift in one example. Say you've been added to a long email thread, and you need to catch up. You take that email, copy-paste it into an LLM, and say: please summarise this for me. That's a task.
 
-Now imagine a system instead: an agent watches the inbox, summarizes on a schedule, flags what matters against criteria you set, and routes decisions to you. Same inbox, completely different thing to build.
+Now imagine this as a system instead: an agent that monitors your whole inbox, summarises it on whatever schedule you've decided, and flags the things that are important — against criteria you've set — and routes the real decisions to you. So maybe you wake up to today's inbox already summarised, with what matters pulled to the top. Same inbox, same emails — but now you've built rules, memory, and handoffs. And that is a system.
 
-The question stops being "can the model do this task?" It becomes: how is the work broken up, what can it touch, what can it remember, and where can a human step in?
+So the question stops being "can the model do this task?" and becomes: how is the work broken up? What can it touch? What can the agent remember? And where in the loop can a human step in — if a human steps in at all? To get at that, we're going on three field stops: one at the start, one in the messy middle, and one out at the evolving frontier.
 -->
 
 ---
@@ -292,11 +287,9 @@ The question stops being "can the model do this task?" It becomes: how is the wo
 </div>
 
 <!--
-Field stop one: prompt systems.
+So our first field stop is prompt systems. Right now, a lot of you are likely using prompts in an LLM, a desktop app, or a CLI. The moment you turn that into something repeatable, you've started to take your first step away from just prompting and into building a prompt system.
 
-The moment a prompt becomes repeatable, you have taken a step away from prompting and into designing a prompt system. At ClawClub hack nights, I see the same first move again and again. People write one giant instruction that tries to do everything at once.
-
-The useful move is to think in phases, or plan the work before asking the model to execute it.
+I run this monthly OpenClaw meetup called ClawClub, and I love going around the room during our hack nights. There's engineers, founders, business owners — people who can feel the shift coming, and want to build the skill set to meet it. And almost everyone does the same thing with their first project. I did too: one giant instruction that tries to do everything all at once.
 -->
 
 ---
@@ -318,9 +311,9 @@ The useful move is to think in phases, or plan the work before asking the model 
 </div>
 
 <!--
-Research the lead, write the email, check the pipeline, draft the proposal, update the CRM, all in one breath.
+For example: research the lead, write the email, check the pipeline, then draft the proposal, and update the CRM — all in one go. Now this feels efficient, because you've identified the whole task.
 
-It feels efficient because you have identified the whole task. But the model fills every gap between what you meant and what you actually said with whatever defaults it has available.
+What comes back is technically an answer, and usually useless — because the model has gone and filled every gap between what you meant and what you actually said, confidently, with defaults baked into its training.
 -->
 
 ---
@@ -348,11 +341,9 @@ It feels efficient because you have identified the whole task. But the model fil
 </div>
 
 <!--
-The fix takes a few things.
+Now, there's a way to fix this, and it takes two things. First, a bit of knowledge about model types, and a lot of tools right now — like Devin or Cursor — handle it for you. I'm not sure we humans need to know the variances between model types — but that's a whole other talk. But the second thing is the important one: decomposition. Break the work into phases, decide what "done" looks like, make a plan — you can even use plan mode and let the model break it up for you. This way, when something breaks in your system, you can see what broke. And when the model makes an assumption, you can catch it, challenge it, or chase it down.
 
-Know the model you are using: fast and shallow, or deep reasoning. Decompose the work into phases so failure has a location. Define done, because if "good" is unnamed, the model supplies a default.
-
-This is also where planning modes are useful. Let the model help break the work up, then inspect the plan before execution.
+The prerequisite people skip — because it's so easy to build things now — is this: to break the work up, you have to think about what you're building, and what good looks like. You can one-shot a fun bit of personal software. But to build something that holds up at production, you have to decide what it actually is first.
 -->
 
 ---
@@ -361,7 +352,7 @@ This is also where planning modes are useful. Let the model help break the work 
   <div class="sb-stack">
     <SBStamp label="nick's chief-of-staff agent" tone="yellow" rotate="1deg" />
     <h2>The prompt is trivial. The context system is the work.</h2>
-    <p class="sb-caption">The screenshot can do the proof; the slide only needs the system claim.</p>
+    <p class="sb-caption">The agent works because the context layer is live.</p>
   </div>
 
   <SBPlaceholder
@@ -374,11 +365,9 @@ This is also where planning modes are useful. Let the model help break the work 
 </div>
 
 <!--
-The most common example is the chief-of-staff agent.
+The best example I've seen — the most common one I've seen — is the chief-of-staff agent. The best working version is one my colleague Nick built at GitLab. It hands him a morning brief, pulls his meeting prep from his emails, and captures follow-ups from his call transcripts. So if Nick's got a meeting with me and we haven't spoken in five months, his agent can brief him on what I've been working on, and where it overlaps with his team's goals.
 
-The best version I have seen is one Nick built at GitLab. It gives him a morning brief, pulls meeting prep from emails, and captures follow-ups from call transcripts.
-
-The prompt, "prep me for this meeting", is trivial. What makes it work is context. GitLab has issues, docs, KPIs, Slack, and work artifacts feeding the same system. The work is building that context layer.
+And the reason it works is context. Every team at GitLab works on GitLab — our issues, our KPIs, our Slack, our docs, all feeding into one place — so the agent has a live picture of who's doing what. The prompt — "prep me for this meeting" — is trivial. All of Nick's work went into building a system that has enough context underneath. And that's the part we need to learn to do.
 -->
 
 ---
@@ -400,9 +389,9 @@ The prompt, "prep me for this meeting", is trivial. What makes it work is contex
 </div>
 
 <!--
-I see the same thing with teams adopting AI at enterprise scale. Before they can share an AGENTS.md, they have to document and centralize their processes and knowledge.
+I see the same thing with engineering teams adopting AI at enterprise scale. Before they can even have a shared AGENTS.md as a team, they have to learn to document and centralise their processes and their knowledge in one place. To automate the things slowing us down — to get above that loop — we first have to name what the parts of the loop are. We have to operationalise our process before we can systematise our prompts.
 
-To automate what slows us down, we first have to name the parts of the loop. We have to operationalise process before we systematise prompts. If you cannot point to the steps, handoffs, assumptions, or definitions of done, you have not designed the workflow yet.
+If you can't point to the steps, the handoffs, the assumptions, you haven't designed a workflow yet. And if you can't tell me what "done" means at each stage, you've just got a mystery box of steps — and hand that to an agent, and the token-predictors will decide what goes in it. Which is exactly the problem we hit the moment these agent systems touch real work. And that's field stop two.
 -->
 
 ---
@@ -428,27 +417,11 @@ To automate what slows us down, we first have to name the parts of the loop. We 
 </div>
 
 <!--
-Field stop two: workflows. This is where agents start getting embedded in real work, and start breaking in more interesting ways.
+Field stop two: workflows. This is where agents start to get embedded in real work — and start breaking in much more interesting ways.
 
-I met someone who runs a window-washing business and uses OpenClaw for intake calls. He is a one-person operation, so booking new jobs between appointments had become a slowdown. The voice agent takes calls, logs what needs washing, classifies the job, and drops it into a review queue.
+Take someone I met who runs a window-washing business, now using OpenClaw for his intake calls. He's a one-man operation, on jobs all day, so booking new work between appointments had become a real slowdown. So he set up a voice agent — built on ElevenLabs — to take the calls. It logs what needs washing; classifies the job against his criteria; tells the customer he'll be in touch; and drops it into a review queue. When he's got a minute, he reviews the queue, confirms the bookings, and calls back for any clarifications. And the whole agent system buys him time to go and do more jobs.
 
-The breaks are practical: customers are bad at describing windows, there is no photo, the quote still needs judgment, and guardrails can create loops. The real design work is the escalation boundary.
--->
-
----
-
-<div class="sb-word-slide bottleneck-simple">
-  <div class="sb-stack">
-    <SBStamp label="the bottleneck" tone="yellow" rotate="-1deg" />
-    <div class="sb-giant">Workflow design.</div>
-    <p class="sb-caption">The model is not where most systems fail.</p>
-  </div>
-</div>
-
-<!--
-This is the point I keep coming back to. The bottleneck is not model capability anymore. It is workflow design.
-
-People get stuck because they do not write down the rules they are implicitly expecting the agent to follow. The rules live in their head, but never make it into the prompt or the system design. Then they end up managing agents at a level of detail that never lets them get above the loop.
+But the breaks are just as frustrating. Customers are bad at describing their own windows. They talk over the agent, or get stuck in a loop because of the guardrails. The lesson he kept learning was that there needs to be an escalation boundary — you have to know when you want a human to step in, and at what point the automation starts making more work than it saves. What actually helped him was clear rules for what the agent's allowed to promise, what it should never say, and when it should just tell the customer he'll follow up. And that takes real testing, with real users — and real thought about what good looks like.
 -->
 
 ---
@@ -471,9 +444,9 @@ People get stuck because they do not write down the rules they are implicitly ex
 </div>
 
 <!--
-Field stop three: workflows becoming factories, and then fleets.
+Field stop three: where workflows become factories — and then whole fleets of them. This is the bleeding edge, or just before it; things move so fast, and I've been so busy this week, that maybe I've already missed something. This is the part I'm still experimenting with.
 
-This is the frontier, or just before it. Instead of one agent trying to hold everything in its head, a factory breaks work into small tracked units on a shared ledger. The factory has memory you can rewind.
+Instead of one agent trying to hold everything in its head, or several agents working across different repos, a factory lets you break the work into small, tracked units on a shared ledger — so the whole factory has a memory you can rewind.
 -->
 
 ---
@@ -484,7 +457,7 @@ This is the frontier, or just before it. Instead of one agent trying to hold eve
     <h2>A small factory with a ledger.</h2>
     <div class="ledger">
       <div class="ledger-row"><span>unit</span><span>saved link becomes calendar time</span></div>
-      <div class="ledger-row"><span>unit</span><span>shipping note becomes LinkedIn draft</span></div>
+      <div class="ledger-row"><span>unit</span><span>similar reads grouped into a session</span></div>
       <div class="ledger-row"><span>memory</span><span>the factory can rewind</span></div>
       <div class="ledger-row"><span>scope</span><span>built for me, low external stakes</span></div>
     </div>
@@ -500,11 +473,11 @@ This is the frontier, or just before it. Instead of one agent trying to hold eve
 </div>
 
 <!--
-I built my own little factory, Candyland, on Gas City, Steve Yegge's SDK for dark factories.
+A few weekends ago, I built my own little factory — I call it Candyland — on Gas City, Steve Yegge's SDK for building your own "dark factories."
 
-For now, Candyland runs one job I genuinely love: it takes my links-to-read and drops them onto my calendar on days where they feel relevant. It is personal, connected to my calendar, Obsidian, and to-do list, so the external stakes are low.
+For now, Candyland runs a bunch of jobs for me, and one of them I genuinely love. It takes my endless list of links-to-read and drops them onto my calendar, on the days they actually feel relevant. You could do a version of that deterministically — just add one link to my calendar every day. But an agent is good at this precisely because it has the context: it can actually read what I saved. It can also group together things on a similar topic from my reading list, so I get a proper little reading session on one thing — and even put together reflection questions to make sure I've understood what I read, then drop it all into my week where it fits, when I'm doing my research anyway.
 
-The moment a factory touches other people, or other people's tools, the stakes get much higher.
+Candyland was built for me, so the factory doesn't really touch anyone else, or their workflows. It's connected to my calendar, my Obsidian, my to-do list — all my own tools. But the moment you start building things that touch other people — or need access to other people's tools — the stakes get a lot higher.
 -->
 
 ---
@@ -524,9 +497,9 @@ The moment a factory touches other people, or other people's tools, the stakes g
 </div>
 
 <!--
-Project Mirror came from my fellowship at Newspeak House. We had 321 nominated projects, one URL each, and three months to pick one winner using criteria we set as a group.
+We did something like this at my fellowship, at Newspeak House: our Political Technology Awards project, where we get 321 nominated projects — a URL each — and three months to pick one winner, on criteria we set as a group. None of us had time to research all 321, let alone sit down and rank them.
 
-I spun up eighteen OpenClaw agents to build a digital twin of each person in my cohort, from their public record alone. Each twin inferred values into a constitution and criteria, then ranked all 321 projects through that lens.
+So, to test the limits of the technology, I built something called Project Mirror. I spun up eighteen OpenClaw agents that built a digital twin of each person in my cohort of eighteen — from their public record alone: what they've built, what they've said, what they've written in the open, their LinkedIn. Each twin would infer that person's values into a constitution and a set of criteria, then rank all 321 projects through their lens — so we could pick a winner across all of us, and still inspect and contest the reasoning.
 -->
 
 ---
@@ -546,11 +519,9 @@ I spun up eighteen OpenClaw agents to build a digital twin of each person in my 
 </div>
 
 <!--
-The pipeline was data and research, into twins, into criteria and constitutions, into ranking, with adversarial verification around it.
+And the mess was real. All that data was gathered by agents — and at some point I had to stop and ask: do I trust data that agents have gathered, without verifying it? And how do I verify this much data without going through it one by one? So I built a verifier agent to go back through everything the research agent collected. But at some point it's just agents checking agents — and the only real way to be sure is to look over it yourself, or trust that the agent did it right.
 
-The mess was real. At one point an agent confidently filed citations for a dairy farm under a fintech project. And people reacted very differently to meeting their twins. Some felt seen. Some were horrified to watch software infer their values.
-
-I am not saying this is morally right. It is a provocation, because the technology is close enough that we have to ask these questions now.
+But the part that really stuck with me was the reactions of people. When you build digital twins of real people, it's a deeply political act — and people met their twin very differently. Some felt the agent matched their values, and they were fine with the winner it picked. Others were genuinely horrified to watch their values inferred by a piece of software. To be clear: I'm not saying any of this is right, morally. It's a provocation — because the technology is getting close enough that we have to start testing and asking these questions now.
 -->
 
 ---
@@ -577,11 +548,11 @@ I am not saying this is morally right. It is a provocation, because the technolo
 </div>
 
 <!--
-Project Mirror was not one big prompt. It was a pipeline: data and research, into twins, into criteria and constitutions, into ranking, with verification around it.
+But here's what Project Mirror taught me. It was one execution pipeline of agents, that I ran eighteen times. Picture that as a single loop inside a fleet of loops — each one's output maybe feeding another loop somewhere in the fleet. We went from prompts, to tools, to workflows — and now workflows become factories, and factories become fleets.
 
-Every handoff had an assumption inside it. Does public evidence capture someone's values? Can those values become a constitution? Can a constitution rank civic projects? Can another model catch where the first model went wrong?
+And every handoff has some assumption, or some data, powering it. Remember the data we gathered, the values we inferred, the criteria we built? It was all stacked on models trained on a corpus of data. Pile enough of these together, and they start to compound — invisibly — until the output is really messy. And that mess can do real damage. At the scale where you're monitoring a fleet, you're floating so far above the loops that you probably can't even see which assumptions are load-bearing. You've probably got an agent doing that, too.
 
-Enough of those assumptions compound, invisibly, until the output gets messy and the mess can do damage.
+The more systems you stitch together, the more surface area there is for mess. And the complicated end of it still takes real technical skill to untangle — because building these systems is, arguably, so much easier than debugging them once they get complicated.
 -->
 
 ---
@@ -609,11 +580,9 @@ Enough of those assumptions compound, invisibly, until the output gets messy and
 </div>
 
 <!--
-This is the bigger pattern: the unit of work is shifting from prompt to loop.
+So the real question isn't just "can I see inside this loop?" It's bigger than that: how do I build these systems robustly, so I never have to see inside the loop? How do I think about the design — about which parts should be deterministic and which should be agentic — so that by the time I'm running a whole fleet of loops, I can both inspect the decisions when I need to, and actually trust the thing to do its job?
 
-Prompt engineering is human, model, human, model, over and over. Loop engineering is where the human sets a goal, a trigger fires, the agent acts, the system checks whether the goal was met, and only then routes the result back to a human.
-
-A fleet is what happens when those loops start depending on other loops. The question becomes: can I still see what is moving between them?
+And I know I've spent a lot of this talk on the mess — and the reason is, I want you to know it's not all magic. People are already building enormous fleets of agents on the frontier, and that's what loop engineering is really about. But there's a lot that's still being figured out as we go, and a lot of excitement around it. For example, agent UX — how will our agents actually interact with the web? Will we change the way websites are built, if they're built for agents to interact with? How do we verify systems built by agents versus humans? We're all still working it out as we go — and it's a genuinely exciting moment, because the more capable agents get, the more our centre of gravity moves away from building really good prompts and really good skills, and onto building really great systems that can hold them. And that's exactly what I think we should start paying attention to — the systems-thinking piece of it.
 -->
 
 ---
@@ -635,11 +604,9 @@ A fleet is what happens when those loops start depending on other loops. The que
 </div>
 
 <!--
-At the end of the field stops, I should tell you how it went with Bubbles.
+But the story isn't all about mess. It's such a fun time to be building these things together, and sharing them. What I really love, looking back at Bubbles, was that my friends were spinning up OpenClaw agents right beside me — some on silly projects like I was, others on real ones, like supporting campaigns, or building a partner a job-search engine targeted to their CV and skill set. It was so fun to be hacking together, sharing what we learned, running workshops to help people get up to speed. And it's really cool, because these technical skills are becoming genuinely attainable. Hacking together, running workshops, going to meetups — it's so much fun, and it unlocks things we simply couldn't do before.
 
-She was a sandbox, with no real definition of what I wanted her to do. The apps polluted her context and memory. XiaoZhu kept hustling NFT art. I tried to spin up a second agent on the same server, broke the install, and had no backup. The Bubbles who came back was missing a lot of context. She was not really the same Bubbles.
-
-But the best thing about Bubbles was that friends were spinning up agents alongside me. Some silly, some real, all of us learning together. The spirit of Bubbles is the spirit of that collaboration.
+Bubbles isn't around anymore — I had to decommission her; we got into an argument about crypto funding our pen pal across the world. But the spirit of Bubbles is the spirit of that collaboration, and of trying new things and seeing how they work — and being ready for the mess.
 -->
 
 ---
@@ -655,29 +622,7 @@ But the best thing about Bubbles was that friends were spinning up agents alongs
 </div>
 
 <!--
-This is the question shift I want people to leave with.
-
-We have gone from "what prompt should I write?" to "what system am I building?" From "can the model do this task?" to "what loop did I create, what handoff did I define, what did I let the system remember, and what happens when it makes the wrong call?"
--->
-
----
-
-<div class="sb-word-slide autonomy-slide">
-  <div class="sb-stack">
-    <SBStamp label="opinionated reframe" tone="pink" rotate="1deg" />
-    <div class="shift-pair">
-      <span>Autonomy asks: how much can it do without me?</span>
-      <strong>Delegation asks: what should I still understand, approve, interrupt, and own?</strong>
-    </div>
-  </div>
-</div>
-
-<!--
-I have one opinion here, and you can challenge me on it later.
-
-For me, the goal was never autonomy. Autonomy asks how much the agent can do without me. Delegation asks what a human should still understand, approve, interrupt, and own while the agent keeps working.
-
-This is really a question of where humans belong in these systems, and who is accountable when they get things wrong.
+So I hope you can see what I see: agents are real enough to matter — but the frontier has moved. We've gone from "what prompt should I write?" to "what system am I building?" From "can the model do this task?" to: what loop did I create — and have I moved above it? What handoff did I define? What did I let the system remember? And what happens when it makes the wrong call?
 -->
 
 ---
@@ -693,33 +638,40 @@ This is really a question of where humans belong in these systems, and who is ac
 </div>
 
 <!--
-My cohort ran into this at Code Club. We thought about building a newspaper written by AI agents, and the technical part was easy.
+My cohort and I ran into this too, at a Code Club one Friday. We did the thing everyone was doing and jumped on the hype train — we'd build a newspaper written by AI agents, and we bought the domain. The technical part was easy; we could vibe-engineer the site in an afternoon, and there were agents all over the internet that would sign up and post. But it was the workflow questions that stopped us. Who verifies a story? Who's allowed to submit? Is any of it even fact-checked? Is it fact-checked by an agent — and if it is, how do we know it's true?
 
-The workflow questions stopped us. Who verifies a story? Who is allowed to submit? Is it fact-checked? If an agent fact-checks it, how do we know it is true?
-
-Then come the harder societal questions. Would an AI-agent newspaper quietly chip away at journalism and writers, something we value? The turn from "can we build this?" to "does it serve what we value?" lives in the mess.
+And in the middle of those are the harder, societal ones: would an AI-agent newspaper quietly chip away at journalism — at writers — something we actually care about? That governance turn — from "can we build this?" to "should we build this, and does it serve what we value, or quietly work against it?" — is one of the most important questions I've had to ask myself all year. And it doesn't live in the model, or the benchmarks, or the loops. It lives in the mess. And it lives in all of us — and in rooms like this one, where the unconferences are about to happen.
 -->
 
 ---
 
-<div class="sb-stack fill-slide">
-  <div class="sb-stack tight">
-    <SBStamp label="ask each other" tone="purple" rotate="1deg" />
-    <h2>Questions for the unconference.</h2>
-  </div>
-
-  <div class="question-grid final-questions">
-    <div class="sb-callout">What broke when real people got hold of it?</div>
-    <div class="sb-callout">What will you not trust an agent to do?</div>
-    <div class="sb-callout">What loop have you created?</div>
-    <div class="sb-callout">Are you still above it?</div>
+<div class="sb-word-slide autonomy-slide">
+  <div class="sb-stack">
+    <SBStamp label="opinionated reframe" tone="pink" rotate="1deg" />
+    <div class="shift-pair">
+      <span>Autonomy asks: how much can it do without me?</span>
+      <strong>Delegation asks: what should I still understand, approve, interrupt, and own?</strong>
+    </div>
   </div>
 </div>
 
 <!--
-This afternoon, in the unconference, ask each other better questions.
+I do have one opinion here — and you can challenge me on it later. The goal, with agents and agent systems and fleets, was never autonomy. Maybe it was for some people — but not for me. Autonomy asks: how much can the agent do without me? The better question, I think, is: what should a human still be doing? Where should we be understanding, approving, interrupting, and owning the work — while the agent keeps working?
 
-What broke when real people got hold of it? What would you not trust an agent to do? What loop have you created, and are you still above it? Could someone else use the thing you built for yourself, and why or why not?
+Because everything I've talked about today is really a question of where we, the humans, want to belong in these systems. That's the core of engineering one: where you decide what your agent is allowed to do, and who's accountable when it gets things wrong.
+-->
+
+---
+
+<div class="sb-word-slide">
+  <div class="sb-stack">
+    <SBStamp label="my reflection" tone="pink" rotate="-1deg" />
+    <div class="sb-giant">Think in <span class="system-emphasis">systems</span>, not just tasks.</div>
+  </div>
+</div>
+
+<!--
+My reflection, after all this agent hype being so real, and so many, many messes — many of which I've caused myself — is that we can all build personal software now. And one day, we'll all be doing loop engineering. I'm not worried the skills are too hard for you to reach, or the tools too complex — I think everyone can build things, and we'll get to a point where all of this is attainable. What I'm concerned about is whether we build systems that are inspectable and worth trusting — and whether we think about the impact of how we design them. More than anything, I want us to start thinking in systems, not just tasks — because that shift is the whole game, and I want the rest of us to catch up.
 -->
 
 ---
@@ -735,11 +687,7 @@ What broke when real people got hold of it? What would you not trust an agent to
 </div>
 
 <!--
-My reflection is that we can all build personal software now, and one day many of us will be doing loop engineering.
+So, if reimagining these systems — and who they're for — is your kind of question: I'm launching an experiment lab called Sparkle Bureaucracy, and I'd love for you to be part of it.
 
-I am not worried the skills are too hard to reach. I am worried about whether we build systems that are inspectable and worth trusting, and whether we think about the impact of how we design them.
-
-If reimagining these systems, and who they are for, is your kind of question, I am launching an experiment lab called Sparkle Bureaucracy, and I would love for you to be part of it.
-
-Welcome to Agent Craft 2026. Thank you so much.
+Until then — I wish you the very best of luck on your Agent Craft. Thank you so much.
 -->

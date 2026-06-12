@@ -10,12 +10,12 @@ const withBase = (src) => {
     <div class="social-left">
       <img :src="withBase('/placeholders/sparkle-qr.png')" alt="Sparkle Bureaucracy QR placeholder" />
       <div>
-        <span class="social-url">sparkle-bureaucracy.example</span>
-        <p>Replace with the final Sparkle Bureaucracy URL and QR code.</p>
+        <span class="social-url">Sparkle Bureaucracy</span>
+        <p>An experiment lab for agent systems.</p>
       </div>
     </div>
     <div class="social-right">
-      <img :src="withBase('/placeholders/speaker-photo.png')" alt="Speaker photo placeholder" />
+      <img :src="withBase('/assets/screenshots/headshot-khalidfatima.png')" alt="Fatima Sarah Khalid" />
       <div class="social-copy">
         <h3>Thank you so much.</h3>
         <p>@sugaroverflow on all the things</p>
