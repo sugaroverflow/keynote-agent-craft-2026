@@ -7,6 +7,9 @@ Keynote for [Agent Craft 2026](https://aifortherestofus.live/london-2026/agenda)
 - Real examples: a window-washing intake agent, a chief-of-staff agent, and Project Mirror (18 agents building digital twins for a political awards process)
 - The tension between autonomy and delegation, and what it means to build systems worth trusting
 
+<img width="512" height="384" alt="IMG_2598" src="https://github.com/user-attachments/assets/3e2e0ea4-633a-4159-a017-5da9d1f49bb3" />
+<img width="512" height="384" alt="IMG_0957" src="https://github.com/user-attachments/assets/40d45d30-fca5-4209-9076-c53223a03b94" />
+
 Built with [Slidev](https://sli.dev).
 
 ## Source
