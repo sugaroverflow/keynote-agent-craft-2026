@@ -7,18 +7,12 @@ const withBase = (src) => {
 
 <template>
   <div class="social-close">
-    <div class="social-left">
-      <img :src="withBase('/placeholders/sparkle-qr.png')" alt="Sparkle Bureaucracy QR placeholder" />
-      <div>
-        <span class="social-url">Sparkle Bureaucracy</span>
-        <p>An experiment lab for agent systems.</p>
-      </div>
-    </div>
-    <div class="social-right">
-      <img :src="withBase('/assets/screenshots/headshot-khalidfatima.png')" alt="Fatima Sarah Khalid" />
+    <section class="social-thanks">
+      <h2>THANK YOU!</h2>
+      <img class="social-avatar" :src="withBase('/assets/screenshots/headshot-khalidfatima.png')" alt="Fatima Sarah Khalid" />
       <div class="social-copy">
-        <h3>Thank you so much.</h3>
-        <p>@sugaroverflow on all the things</p>
+        <p class="social-handle">@sugaroverflow</p>
+        <p>on all the socials</p>
         <div class="social-icons" aria-label="social links">
           <span>in</span>
           <span>x</span>
@@ -26,6 +20,15 @@ const withBase = (src) => {
           <span>m</span>
         </div>
       </div>
-    </div>
+      <p class="agent-made-caption">my agent made these slides.</p>
+    </section>
+
+    <section class="social-lab">
+      <p>Sparkle Bureaucracy is a network of people using AI to explore optimistic organisational and service futures.</p>
+      <a class="social-url" href="https://www.sparklebureaucracy.org/">sparklebureaucracy.org</a>
+      <div class="social-qr-frame">
+        <img :src="withBase('/assets/sparkle-bureaucracy-qr.svg')" alt="QR code for sparklebureaucracy.org" />
+      </div>
+    </section>
   </div>
 </template>

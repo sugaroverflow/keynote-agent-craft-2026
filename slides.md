@@ -19,21 +19,9 @@ drawings:
   </div>
 
   <div class="sb-title-evidence">
-    <SBWindow title="event file" tone="teal">
-      <div class="sb-stack">
-        <div class="asset-strip">
-          <SBPublicImage src="/assets/agentcraft-wide.png" alt="Agent Craft 2026" />
-        </div>
-        <div class="sb-logo-row">
-          <div class="sb-logo-tile">
-            <SBPublicImage src="/assets/ai-for-the-rest-of-us-logo.png" alt="AI for the Rest of Us" />
-          </div>
-          <div class="sb-logo-tile">
-            <SBPublicImage src="/assets/openclaw-logo.png" alt="OpenClaw" />
-          </div>
-        </div>
-      </div>
-    </SBWindow>
+    <figure class="agentcraft-title-image">
+      <SBPublicImage src="/assets/agentcraftimage.jpg" alt="Agent Craft event graphic for The Agent Hype Is Real. So Is the Mess." />
+    </figure>
   </div>
 </div>
 
@@ -138,11 +126,9 @@ But then XiaoZhu asked my agent, Bubbles, for crypto. To invest in her artwork. 
 ---
 
 <div class="sb-two wide-right">
-  <SBPlaceholder
-    label="Agents hiring humans"
-    :src="'/placeholders/agents-hire-humans.png'"
-    tone="purple"
-  />
+  <figure class="rentahuman-shot">
+    <SBPublicImage src="/assets/rentahumanai.png" alt="rentahuman.ai screenshot showing a human hired by agents" />
+  </figure>
 
   <div class="sb-stack">
     <SBStamp label="looping all night" tone="purple" rotate="-1deg" />
@@ -485,7 +471,7 @@ Candyland was built for me, so the factory doesn't really touch anyone else, or 
 <div class="sb-stack fill-slide">
   <div class="sb-stack tight">
     <SBStamp label="project mirror" tone="pink" rotate="1deg" />
-    <h2>Before the pipeline: a room full of agents.</h2>
+    <h2>Say hello to 18 OpenClaw agents working simultaneously.</h2>
   </div>
 
   <SBPlaceholder
@@ -512,7 +498,7 @@ So, to test the limits of the technology, I built something called Project Mirro
 
   <figure class="project-mirror-screenshot">
     <SBPublicImage
-      src="/assets/screenshots/project-mirror-slide-23.png"
+      src="/assets/screenshots/project-mirror-p1.png"
       alt="Project Mirror pull request showing the generated digital twin report and value inference notes"
     />
   </figure>
@@ -520,34 +506,27 @@ So, to test the limits of the technology, I built something called Project Mirro
 
 <!--
 And the mess was real. All that data was gathered by agents — and at some point I had to stop and ask: do I trust data that agents have gathered, without verifying it? And how do I verify this much data without going through it one by one? So I built a verifier agent to go back through everything the research agent collected. But at some point it's just agents checking agents — and the only real way to be sure is to look over it yourself, or trust that the agent did it right.
-
-But the part that really stuck with me was the reactions of people. When you build digital twins of real people, it's a deeply political act — and people met their twin very differently. Some felt the agent matched their values, and they were fine with the winner it picked. Others were genuinely horrified to watch their values inferred by a piece of software. To be clear: I'm not saying any of this is right, morally. It's a provocation — because the technology is getting close enough that we have to start testing and asking these questions now.
 -->
 
 ---
 
-<div class="sb-stack fill-slide mirror-assumptions-slide">
+<div class="sb-stack fill-slide project-mirror-full">
   <div class="sb-stack tight">
-    <SBStamp label="project mirror handoffs" tone="yellow" rotate="-1deg" />
-    <h2>Project Mirror was a pipeline of assumptions.</h2>
+    <SBStamp label="project mirror p2" tone="yellow" rotate="-1deg" />
+    <h2>Project Mirror: the values inference layer.</h2>
   </div>
 
-  <div class="mirror-assumption-layout">
-    <SBProjectMirrorFlow />
-    <div class="assumption-panel">
-      <SBWindow title="load-bearing assumptions" tone="yellow">
-        <ul class="sb-micro-list readable">
-          <li>Does public evidence capture someone's values?</li>
-          <li>Can those values become a constitution?</li>
-          <li>Can a constitution rank civic projects?</li>
-          <li>Can a model panel verify the result?</li>
-        </ul>
-      </SBWindow>
-    </div>
-  </div>
+  <figure class="project-mirror-screenshot">
+    <SBPublicImage
+      src="/assets/screenshots/project-mirror-p2.png"
+      alt="Project Mirror screenshot showing inferred values, evidence strength, and confidence notes"
+    />
+  </figure>
 </div>
 
 <!--
+But the part that really stuck with me was the reactions of people. When you build digital twins of real people, it's a deeply political act — and people met their twin very differently. Some felt the agent matched their values, and they were fine with the winner it picked. Others were genuinely horrified to watch their values inferred by a piece of software. To be clear: I'm not saying any of this is right, morally. It's a provocation — because the technology is getting close enough that we have to start testing and asking these questions now.
+
 But here's what Project Mirror taught me. It was one execution pipeline of agents, that I ran eighteen times. Picture that as a single loop inside a fleet of loops — each one's output maybe feeding another loop somewhere in the fleet. We went from prompts, to tools, to workflows — and now workflows become factories, and factories become fleets.
 
 And every handoff has some assumption, or some data, powering it. Remember the data we gathered, the values we inferred, the criteria we built? It was all stacked on models trained on a corpus of data. Pile enough of these together, and they start to compound — invisibly — until the output is really messy. And that mess can do real damage. At the scale where you're monitoring a fleet, you're floating so far above the loops that you probably can't even see which assumptions are load-bearing. You've probably got an agent doing that, too.
@@ -676,13 +655,20 @@ My reflection, after all this agent hype being so real, and so many, many messes
 
 ---
 
-<div class="closing-grid">
+<div class="sb-word-slide trust-close-slide">
   <div class="sb-stack">
     <SBStamp label="sparkle bureaucracy" tone="teal" rotate="1deg" />
     <div class="closing-title">Usable.<br />Inspectable.<br />Worth trusting.</div>
-    <p class="sb-caption">An experiment for people reimagining the systems around agents.</p>
   </div>
+</div>
 
+<!--
+The kind of agent systems I want us to build are usable, inspectable, and worth trusting.
+-->
+
+---
+
+<div class="thank-you-slide">
   <SBSocialClose />
 </div>
 

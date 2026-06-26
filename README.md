@@ -1,17 +1,22 @@
-# Agent Craft 2026 Slidev Deck
+# The Agent Hype Is Real. So Is the Mess.
 
-This repo uses Slidev as the source of truth for the keynote.
+Keynote for [Agent Craft 2026](https://aifortherestofus.live/london-2026/agenda) — a field report on building with AI agents.
 
-## Active Source
+- The shift from prompting to systems thinking
+- Three field stops: prompt systems, workflows, and factories/fleets
+- Real examples: a window-washing intake agent, a chief-of-staff agent, and Project Mirror (18 agents building digital twins for a political awards process)
+- The tension between autonomy and delegation, and what it means to build systems worth trusting
 
-- `slides.md`: the Slidev talk structure, visual slides, and presenter notes.
-- `script.md`: the reference script used to keep presenter notes aligned.
-- `layouts/default.vue`: persistent Sparkle Bureaucracy shell.
-- `components/`: reusable windows, stamps, nodes, placeholders, and comparison views.
-- `styles/`: design tokens, typography, shell, diagrams, and slide primitives.
-- `public/assets/`: served event and logo assets.
-- `public/placeholders/`: local PNG placeholders for screenshot/evidence slots.
-- `assets/`: original screenshot/photo source files before browser-safe copies are placed in `public/assets/screenshots/`.
+Built with [Slidev](https://sli.dev).
+
+## Source
+
+- `slides.md`: talk structure, slides, and presenter notes
+- `script.md`: reference script
+- `components/`: reusable Slidev components (windows, stamps, nodes, placeholders)
+- `styles/`: design tokens and slide primitives
+- `public/assets/`: served event and logo assets
+- `assets/`: original screenshot/photo source files
 
 ## Commands
 
